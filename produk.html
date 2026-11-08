@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Collection - Sugarframe</title>
+    <link rel="stylesheet" href="utsstyle.css">
+    <link rel="icon" href="images/pluto.rb.png">
+
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <h1 style="font-family:serif;">📖 SUGARFRAME ☕</h1>
+            <p>Book Café • Bookstore • Creative Space  <br> Every Story Deserves a Safe Frame</p>
+        </div>
+        <nav class="nav-menu"> 
+            <a href="index.html">Home</a>
+            <div class="dropdown"> 
+                <a href="about.html">About ▾</a>
+                <div class="dropdown-content">
+                    <a href="about.html#profil">About Sugarframe</a>
+                    <a href="about.html#sejarah">Our Beginning</a>
+                    <a href="about.html#tujuan">Vision & Mission</a>
+                </div>
+            </div>
+
+            <a href="artikel.html">Artikel</a>
+
+            <div class="dropdown"> 
+                <a href="produk.html">The Collection ▾</a>
+                <div class="dropdown-content">
+                    <a href="produk.html#buku">The Bookshelf</a>
+                    <a href="produk.html#cafe">The Brew & Bakery</a>
+                    <a href="produk.html#merchandise">Merchandise</a>
+                </div>
+            </div>
+
+            <a href="registrasi.html">Join Us</a>
+
+            <a href="kontak.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="layout">
+            <main class="main-body"> 
+                <div class="cart-box" id="keranjang">
+                    <h3>🛒 Keranjang Belanja</h3>
+                    <ul id="daftar-keranjang"></ul>
+                    <p><b>Total: <span id="total-harga">Rp 0</span></b></p>
+                    <button class="btn" id="btn-checkout">Pesan via WhatsApp</button>
+                    <button class="btn btn-kosong" id="btn-kosongkan">Kosongkan</button>
+                </div>
+
+                <h2 class="section-title" id="buku">Buku</h2>
+                <div class="grid">
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/cil.jpg">
+                        </div>
+                        <h3>Cantik Itu Luka</h3>
+                        <p class="synopsis">Kisah epik Dewi Ayu dan keluarganya yang dibalut sejarah kelam, tragedi, dan kutukan kecantikan.</p>
+                        <span class="badge">Rp 160.000</span>
+                        <br><br><button class="btn tambah" data-nama="Cantik Itu Luka" data-harga="160000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/7hg.jpg">
+                        </div>
+                        <h3>The Seven Husband Of Evelyn Hugo</h3>
+                        <p class="synopsis">Pengakuan jujur ikon Hollywood legendaris tentang rahasia, ambisi, dan cinta sejatinya.</p>
+                        <span class="badge">Rp 350.000</span>
+                        <br><br><button class="btn tambah" data-nama="The Seven Husband Of Evelyn Hugo" data-harga="350000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/re.jpg">
+                        </div>
+                        <h3>Re dan Perempuan</h3>
+                        <p class="synopsis"> Perjalanan hidup penuh liku seorang wanita yang berjuang mencari jati diri di tengah kerasnya stigma sosial.</p>
+                        <span class="badge">Rp 95.000</span>
+                        <br><br><button class="btn tambah" data-nama="Re dan Perempuan" data-harga="95000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/lb.jpg">
+                        </div>
+                        <h3>Laut Bercerita</h3>
+                        <p class="synopsis">Suara para aktivis yang hilang di masa lalu, merangkai kisah persahabatan, keluarga, dan kehilangan.</p>
+                        <span class="badge">Rp 99.000</span>
+                        <br><br><button class="btn tambah" data-nama="Laut Bercerita" data-harga="55000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/alchemist1.jpg">
+                        </div>
+                        <h3>The Alchemist</h3>
+                        <p class="synopsis">Petualangan filosofis Santiago, seorang gembala muda yang mengikuti mimpi untuk menemukan harta karun.</p>
+                        <span class="badge">Rp 89.000</span>
+                        <br><br><button class="btn tambah" data-nama="The Alchemist" data-harga="89000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/aromakarsa.jpg">
+                        </div>
+                        <h3>Aroma Karsa</h3>
+                        <p class="synopsis">Misteri pencarian Puspa Karsa, tanaman legendaris yang memadukan indra penciuman dan rahasia masa lalu.</p>
+                        <span class="badge">Rp 155.000</span>
+                        <br><br><button class="btn tambah" data-nama="Aroma Karsa" data-harga="155000">🛒 Masuk Keranjang</button>
+                    </div>
+                </div>
+                <h2 class="section-title" id="merchandise">Alat Tulis &amp; Merchandise</h2>
+                <div class="grid">
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/merch4.jpg">
+                        </div>
+                        <h3>Notebook Hardcover</h3>
+                        <p class="synopsis">Kertas tebal, nyaman ditulis.</p>
+                        <span class="badge">Rp 45.000</span>
+                        <br><br><button class="btn tambah" data-nama="Notebook Hardcover" data-harga="45000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/merch5.jpg">
+                        </div>
+                        <h3>Set Pulpen Gel</h3>
+                        <p class="synopsis">Isi 5 warna pastel.</p>
+                        <span class="badge">Rp 30.000</span>
+                        <br><br><button class="btn tambah" data-nama="Set Pulpen Gel" data-harga="30000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/merch1.jpg">
+                        </div>
+                        <h3>Tote Bag Sugarframe</h3>
+                        <p class="synopsis">Bahan kanvas tebal dan kuat.</p>
+                        <span class="badge">Rp 65.000</span>
+                        <br><br><button class="btn tambah" data-nama="Tote Bag sugarframe" data-harga="65000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/merch2.jpg">
+                        </div>
+                        <h3>Gantungan Kunci Akrilik</h3>
+                        <p class="synopsis">Bahan akrilik tebal dengan print uv 2 sisi</p>
+                        <span class="badge">Rp 35.000</span>
+                        <br><br><button class="btn tambah" data-nama="Gantungan Kunci Akrilik" data-harga="35000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/merch3.jpg">
+                        </div>
+                        <h3>Mug minimalis</h3>
+                        <p class="synopsis">Bahan 100% stainless steel dengan desain minimalis.</p>
+                        <span class="badge">Rp 50.000</span>
+                        <br><br><button class="btn tambah" data-nama="Mug minimalis" data-harga="50000">🛒 Masuk Keranjang</button>
+                    </div>
+                </div>
+                <h2 class="section-title" id="cafe">Produk Cafe</h2>
+                <div class="grid">
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/cafe1.jpg">
+                        </div>
+                        <h3>Americano</h3>
+                        <p class="synopsis">Kopi hitam klasik dengan ekstraksi espresso murni, menghadirkan rasa yang kuat dan menyegarkan untuk menemani harimu.</p>
+                        <span class="badge">Rp20.000</span>
+                        <br><br><button class="btn tambah" data-nama="Americano" data-harga="20000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/cafe2.jpg">
+                        </div>
+                        <h3>V60</h3>
+                        <p class="synopsis">Seduhan kopi manual filter pilihan yang menonjolkan karakter rasa unik, aroma kaya, dan keaslian biji kopi terbaik.</p>
+                        <span class="badge">Rp 30.000</span>
+                        <br><br><button class="btn tambah" data-nama="V60" data-harga="30000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/cafe3.jpg">
+                        </div>
+                        <h3>Matcha Latte</h3>
+                        <p class="synopsis">Perpaduan bubuk teh hijau premium asal Jepang dengan susu segar yang lembut, manis pas, dan menenangkan.</p>
+                        <span class="badge">Rp 25.000</span>
+                        <br><br><button class="btn tambah" data-nama="Matcha Latte" data-harga="25000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/cafe4.jpg">
+                        </div>
+                        <h3>Salted Bread</h3>
+                        <p class="synopsis">Roti buttery dengan taburan garam laut di atasnya, menghasilkan tekstur renyah di luar, empuk di dalam, dan gurih di setiap gigitan.</p>
+                        <span class="badge">Rp15.000</span>
+                        <br><br><button class="btn tambah" data-nama="Salted Bread" data-harga="15000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/cafe5.jpg">
+                        </div>
+                        <h3>Waffle</h3>
+                        <p class="synopsis">Waffle hangat bertekstur keemasan yang renyah di luar dan lembut di dalam, sangat pas dinikmati dengan sentuhan manis.</p>
+                        <span class="badge">Rp 25.000</span>
+                        <br><br><button class="btn tambah" data-nama="Waffle" data-harga="25000">🛒 Masuk Keranjang</button>
+                    </div>
+                    <div class="card">
+                        <div class="poster-wrapper">
+                            <img src="images/cafe6.jpg">
+                        </div>
+                        <h3>Menu Sarapan</h3>
+                        <p class="synopsis">Awali pagi penuh inspirasi dengan hidangan sarapan spesial yang lezat, bernutrisi, dan membangkitkan semangat.</p>
+                        <span class="badge">Rp 30.000</span>
+                        <br><br><button class="btn tambah" data-nama="Menu Sarapan" data-harga="30000">🛒 Masuk Keranjang</button>
+                    </div>
+                </div>
+            </main>
+            <aside class="sidebar">
+                <div class="side-box">
+                    <h3>📢 Keuntungan Jadi Bagian dari Sugarframe Story</h3>
+                    <ul>
+                        <li><b>Member Reguler: </b> Dapatkan diskon 10% untuk semua pembelian novel dan buku pilihan setiap minggunya.</li>
+                        <li><b>Member Premium: </b>  Nikmati potongan harga spesial 20% + gratis 1 topping untuk semua menu kafe favoritmu!</li>
+                        <li><b>Spesial Anggota Baru Sugarframe!</b>☕  Nikmati voucher potongan harga 20% untuk pembelian menu kafe pertama setelah mendaftar di halaman Join Us.</li>
+                        <li><b>✨ Weekend Book Date:</b> Nikmati potongan harga spesial Rp10.000 untuk setiap pembelian merchandise (Tote Bag / Enamel Mug) setiap akhir pekan.</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h4>Sugarframe - Book Café • Bookstore • Creative Space</h4>
+                <p>© 2026 SUGARFRAME. All rights reserved.<br>Design by Cahya</p>
+            </div>
+            <div class="footer-right">
+                <h4>Website Resmi</h4>
+                <p><a href="https://www.sugarframe.com">www.sugarframe.com</a></p>
+                <h4>Instagram</h4>
+                <p><a href="https://www.instagram.com/sugarframes">@sugarframes</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="utsscript.js"></script>
+</body>
+</html>

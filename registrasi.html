@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - Sugarframe</title>
+    <link rel="stylesheet" href="utsstyle.css">
+    <link rel="icon" href="images/pluto.rb.png">
+
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <h1 style="font-family:serif;">📖 SUGARFRAME ☕</h1>
+            <p>Book Café • Bookstore • Creative Space  <br> Every Story Deserves a Safe Frame</p>
+        </div>
+        <nav class="nav-menu"> 
+            <a href="index.html">Home</a>
+            <div class="dropdown"> 
+                <a href="about.html">About ▾</a>
+                <div class="dropdown-content">
+                    <a href="about.html#profil">About Sugarframe</a>
+                    <a href="about.html#sejarah">Our Beginning</a>
+                    <a href="about.html#tujuan">Vision & Mission</a>
+                </div>
+            </div>
+
+            <a href="artikel.html">Artikel</a>
+
+            <div class="dropdown"> 
+                <a href="produk.html">The Collection ▾</a>
+                <div class="dropdown-content">
+                    <a href="produk.html#buku">The Bookshelf</a>
+                    <a href="produk.html#cafe">The Brew & Bakery</a>
+                    <a href="produk.html#merchandise">Merchandise</a>
+                </div>
+            </div>
+
+            <a href="registrasi.html">Join Us</a>
+
+            <a href="kontak.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="layout">
+            <main class="main-body">
+            <section class="intro-box">
+                <h2>Sugarframe Membership</h2>
+                <p>Kami menghadirkan dua pilihan keanggotaan yang
+                    dapat disesuaikan dengan kebutuhan pengunjung.
+                    Mulai dari keanggotaan gratis hingga keanggotaan
+                    premium dengan berbagai keuntungan tambahan.
+                </p>
+            </section>
+            <h2 class="section-title">Choose Your Membership</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="poster-wrapper">
+                        <img src="images/member1.jpg" alt="The Little Chapter">
+                    </div>
+                    <span class="badge">REGULER MEMBERSHIP</span>
+                    <h3>The Little Chapter</h3>
+                    <p class="synopsis">
+                        Every story begins somewhere.
+                        Start your journey and become part
+                        of the Sugarframe community.
+                    </p>
+                    <h2 style="color:#2b7a90;">Rp0</h2>
+                    <p class="meta">Free Membership</p>
+                    <h3>Member Benefits</h3>
+                    <ul style="padding-left:20px; font-size:0.9rem;">
+                        <li>Digital membership card</li>
+                        <li>Latest news and promotions</li>
+                        <li>Access to community activities</li>
+                        <li>Shopping reward points</li>
+                        <li>Book recommendations</li>
+                        <li>Special seasonal promotions</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="poster-wrapper">
+                        <img src="images/member2.jpg" alt="The Golden Frame">
+                    </div>
+                    <span class="badge">PREMIUM MEMBERSHIP</span>
+                    <h3>The Golden Frame</h3>
+                    <p class="synopsis">
+                        A little more, a little closer.
+                        Enjoy additional rewards and exclusive
+                        experiences at Sugarframe.
+                    </p>
+                    <h2 style="color:#2b7a90;">
+                        Rp75.000
+                    </h2>
+                    <p class="meta">Valid for 6 Months</p>
+                    <h3>Premium Benefits</h3>
+                    <ul style="padding-left:20px; font-size:0.9rem;">
+                        <li>All Regular Member benefits</li>
+                        <li>10% discount on selected books</li>
+                        <li>10% discount on café menu</li>
+                        <li>Free birthday drink</li>
+                        <li>Priority event registration</li>
+                        <li>Exclusive member merchandise</li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+                <h2 class="section-title">Pendaftaran Anggota</h2>
+                <p>Jadilah anggota Sugarframe dan nikmati diskon serta benefits lainnya</p>
+                <form id="form-registrasi" class="form-box"> 
+                    <label>Nama Lengkap</label>
+                    <input type="text" id="nama" required>
+                    <label>Email</label>
+                    <input type="email" id="email" required>
+                    <label>No. HP</label>
+                    <input type="tel" id="hp" placeholder="Contoh: 628123456789" required>
+                    <label>Genre Favorit</label>
+                    <select id="genre">
+                        <option>Fiksi</option><option>Sastra</option><option>Pengembangan Diri</option><option>Sejarah</option><option>Anak</option><option>Lainnya</option>
+                    </select>
+                    <label>Paket Keanggotaan</label>
+                    <div class="radio-row">
+                        <label><input type="radio" name="paket" value="Reguler" checked> Reguler</label>
+                        <label><input type="radio" name="paket" value="Premium"> Premium</label>
+                    </div>
+                    <label><input type="checkbox" required> Saya setuju dengan syarat &amp; ketentuan</label>
+                    <button type="submit" class="btn">Daftar Sekarang</button>
+                </form>
+                </section>           
+            </main>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h4>Sugarframe - Book Café • Bookstore • Creative Space</h4>
+                <p>© 2026 SUGARFRAME. All rights reserved.<br>Design by Cahya</p>
+            </div>
+            <div class="footer-right">
+                <h4>Website Resmi</h4>
+                <p><a href="https://www.sugarframe.com">www.sugarframe.com</a></p>
+                <h4>Instagram</h4>
+                <p><a href="https://www.instagram.com/sugarframes">@sugarframes</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="utsscript.js"></script>
+</body>
+</html>
